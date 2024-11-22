@@ -1,0 +1,57 @@
+:root {
+    --font-headers: "Roboto";
+    --font-content: "Roboto";
+    
+    
+    --color-text: #dcdcdc;
+    
+    --color-background-primary: #292d2d;
+    --color-background-secondary: #222322;
+    
+    --color-highlight-primary: #f4d644; /*#90e9d4*/
+    --color-accent-primary: #f4d644;/*#72c2af;*/
+
+    --color-highlight-secondary: #f4d644; /*#d54857*/
+    --color-accent-secondary: #f4d644; /*#c97b83;*/
+
+    /*Test colors*/
+    /*--color-highlight-primary: #BED754;*/
+    /*--color-accent-primary: #65B741;*/
+
+    /*--color-highlight-secondary: #FF9F29;*/
+    /*--color-accent-secondary:  #FF9F29;*/
+    
+
+    --font-size: 18px;
+    --icon-size: 32px;
+
+    --float-card-radius: 6px;
+}
+
+
+/* ICON SIZES */
+i.small {
+    font-size: calc(var(--icon-size) * 0.5);
+}
+
+i.normal {
+    font-size: var(--icon-size);
+}
+
+i.large {
+    font-size: calc(var(--icon-size) * 1.5);
+}
+
+
+/* FONT SIZES */
+a.small {
+    font-size: calc(var(--font-size) * 0.5);
+}
+
+a.normal {
+    font-size: var(--font-size);
+}
+
+a.large {
+    font-size: calc(var(--font-size) * 1.5);
+}
